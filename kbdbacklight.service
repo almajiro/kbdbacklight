@@ -1,0 +1,8 @@
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/kbdbacklight
+KillMode=control-group
+KillSignal=SIGTERM
